@@ -1,0 +1,70 @@
+body{
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin:0;
+    padding-bottom: 0;
+}
+nav img {
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+}
+nav{
+    border-bottom: 3px solid #3292a6;
+}
+#home {
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(76, 208, 235, 0.5), rgb(83, 211, 236,0.5)),url(images/images/home_cover.jpg);
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#home img{
+    width: 300px;
+    height: 450px;
+}
+#about{
+    background-color: rgb(247, 247, 247);
+}
+#authors .card{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+#authors .card .card-body{
+    position: relative;
+    padding-top: 80px;
+}
+#authors .card .card-body .card-footer i,
+#authors .card .card-body .card-footer {
+    background-color: white;
+    color:#3292a6;
+}
+#authors .card .card-body:hover .card-footer i,
+#authors .card .card-body:hover .card-footer,
+#authors .card .card-body:hover{
+    background-color: #3292a6;
+    color: white;
+    transition: .3s;
+}
+
+#authors .card .card-body a{
+    font-size: 2rem;
+    margin:0.9rem;
+}
+#authors .card img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-120%);
+}
+#contact{
+    background-color: rgb(247, 247, 247);
+}
+#contact img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
